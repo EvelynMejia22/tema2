@@ -22,3 +22,7 @@ st.markdown("___")
 st.subheader("Ventas por categoría")
 st.write("La siguiente gráfica tiene como objetivo mostrar las ventas por categoría")
 st.plotly_chart(px.pie(walmart_data, values='Sales', names='Category'))
+#Gráfico de pastele
+st.subheader("Ventas por categoría")
+st.write("La siguiente gráfica tiene como objetivo mostrar las ventas por categoría")
+st.plotly_chart(px.pie(walmart_data, values='Sales', names='Category'))
