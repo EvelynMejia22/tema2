@@ -5,5 +5,3 @@ numpy
 matplotlib
 plotly
 plotly.express
-plotly.graph_objects
-datetime
